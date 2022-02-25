@@ -1,0 +1,25 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: aquamarine;
+  font-size: smaller;
+  button-color: #410490;
+}
+
+button {
+  background: #ffc3dc;
+  color: #410490;
+}
+
+button:hover {
+  background: #e9e9e9;
+}
+/*# sourceMappingURL=style.css.map */

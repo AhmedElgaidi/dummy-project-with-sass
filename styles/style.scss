@@ -1,0 +1,24 @@
+@import './variables';
+@import './_header';
+
+button{
+    background: $primaryBtn;
+    color: $textColor;
+}
+button:hover {
+    background: $textColorOnHover;
+}
+// We can use varibales for any property
+// we have the ability to nest also, so we can organize our code more which would be easy to read and edit etc...
+// we could create components and so on.
+
+// sometimes we need to repeat certain sytle, so we can create a function (mixin) and invoke this function whenever needed.
+
+
+// You also can extend styles of created component into anther, if you want to override some properties, write it after
+// @extends header
+// background: white;
+// and so on
+
+
+// you can use +, -, /, * as a programing language

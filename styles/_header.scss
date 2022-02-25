@@ -1,0 +1,13 @@
+@mixin displayFlex ($direction, $background) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction; // we can pass variables also
+    background: $background;
+}
+header {
+    @include displayFlex(column, aquamarine);
+    font-size: smaller;
+    button: {
+        color: $textColor;
+    }
+}
